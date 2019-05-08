@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root10086
+    url: jdbc:mysql://localhost:3306/sell?useUnicode=true&characterEncoding=utf8&useSSL=false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+server:
+  servlet:
+    context-path: /sell
+wechat:
+  mpAppId: wxd898fcb01713c658
+  mpAppSecret: b64d5a0edbff9b89b7fb0f073366941a
+  openAppId: wxf3be634f17ef90e2
+  openAppSecret: b64d5a0edbff9b89b7fb0f073366941a
+  mchKey: C5245D70627C1F8E9964D494B0735025
+  mchId: 1483469312
+  keyPath: C:\Users\Administrator\Desktop\开发资料\蓝凌开发资料\慕课项目资料文件\h5.p12
+  notifyUrl: http://dcxt.natapp1.cc/sell/pay/notify
+
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  file: "D:/sell"
